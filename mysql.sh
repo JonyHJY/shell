@@ -49,5 +49,6 @@ select host,user from user;
 echo '================================================' >>user.txt
 echo '查看运行mysql的系统账户' >>user.txt
 echo '================================================' >>user.txt
-echo `ps -ef|grep mysql` >>user.txt
+echo `ps -ef | grep mysql` 
+
 
